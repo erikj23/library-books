@@ -1,0 +1,24 @@
+
+dependancies: ~
+name: vscode
+description: The best code editor around.
+license: ~
+homepage: ~
+shared:
+  path: /library/
+support:
+  amd64:
+    darwin:
+      url: https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal
+      sha256: 9463c231046b5f3c08fe59c8b6229ea9866ec048143b4397f799d43f35cca4b0
+      type: zip/application
+    
+    linux:
+      sha256: 47e097cfbfb64e97492934f50e646cb84df952eb76897182557811b45603dbf0
+    
+    windows:
+      url: https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+      sha256: 8814aacbab1e15c42a1f9f978401500ef8c33e4075f8a29a74e3a67a1a535e26
+      type: exe/install
+  arm64: ~
+  

@@ -1,0 +1,27 @@
+versions:
+- 0.14.9
+- 0.12.4
+dependancies: ~
+name: terraform
+description: Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+license: MPL-2.0
+homepage: https://www.terraform.io/
+shared:
+  path: /library/
+support:
+  amd64:
+    url: https://releases.hashicorp.com/{0}/{1}/{1}_{2}_{3}.zip
+    darwin:
+      dependancies: ~
+      sha256: 96d0b1c807415ba295a70e8afed04e233778673103587f321164ebb96be123d8
+      resources:
+        path: ~
+    linux:
+      sha256: 47e097cfbfb64e97492934f50e646cb84df952eb76897182557811b45603dbf0
+      resource:
+        path: ~
+    windows:
+      sha256: 8814aacbab1e15c42a1f9f978401500ef8c33e4075f8a29a74e3a67a1a535e26
+      resources:
+        path: ~
+  arm: ~
